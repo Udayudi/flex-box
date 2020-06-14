@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+.main {
+  height: 70vh;
+  border: 20px solid #333;
+}
+
+.box-1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.box-2 {
+  width: 100px;
+  height: 100px;
+  background: green;
+}
+
+.box-3 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
+
+.main-1 {
+  height: 70vh;
+  border: 20px solid #333;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.box-1-1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+
+.box-2-1 {
+  width: 100px;
+  height: 100px;
+  background: green;
+}
+
+.box-3-1 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
